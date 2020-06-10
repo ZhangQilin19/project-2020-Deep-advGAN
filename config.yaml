@@ -1,0 +1,17 @@
+batch_size : 64
+start : 0
+end : 1000
+G_lr : 0.0001
+D_lr : 0.0001
+milestones : 
+  - 50
+  - 100
+resume : False
+resume_path : checkpoints/example.pth
+CC : 0.01
+box_min : 0.0
+box_max : 1.0
+G_alpha : 10
+G_beta : 1
+logIterval  : 10
+checkpoint_path: checkpoint
